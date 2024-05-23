@@ -1,0 +1,40 @@
+.flayout{
+    background-image: linear-gradient(to right, #6441A5, #2A2A72);
+    
+}
+.card{
+    box-shadow: 2px 2px 30px #F2F4F6;
+}
+.style::before{
+    position: absolute;
+    content: "";
+    width: 230px;
+    height: 1px;
+    background: #D9D9D9;
+    top: 50%;
+    transform: translatey(-50%);
+    left: -250px;
+}
+.style::after{
+    position: absolute;
+    content: "";
+    width: 230px;
+    height: 1px;
+    background: #D9D9D9;
+    top: 50%;
+    transform: translatey(-50%);
+    right: -250px;
+}
+.sLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sLink img{
+    margin-right: 7px;
+}
+.sLink{
+    box-shadow: 0px 0px 70px 0px #00000033;
+
+}

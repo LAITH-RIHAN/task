@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: normal;
+    src: url(./public/fonts/normal.ttf);
+}
+@font-face {
+    font-family: bold;
+    src: url(./public/fonts/bold.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(./public/fonts/light.ttf);
+}
+
+.link{
+    font-family: bold;
+    font-size: 18px;
+}
+h1{
+    font-family: 'bold';
+    font-size: 50px;
+}
+h2{
+    font-family: 'normal';
+    font-size: 34px;
+}
+h3{
+    font-family: 'light';
+    font-size: 28px;
+}
+p{
+    font-family: 'light';
+    font-size: 22px;
+}
+.overlay1{
+    background: linear-gradient(45deg,#0D0E3F,#6B48FF); 
+    opacity: .45;
+}
+.container{
+    max-width: 1520px;
+    margin: auto;
+    padding: 20px;
+}
