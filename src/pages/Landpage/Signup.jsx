@@ -50,7 +50,7 @@ function Signup() {
                                 <img src={require("../../assets/upload.png")} alt="" className=" w-[60px] h-[60px]" />
                                 <p className="text-[18px] font-bold">اسحب وافلت الصورة هنا او قم برفعها من الملفات</p>
                             </div>
-                            <div className="bg-color-2 w-full h-[70px] cursor-pointer rounded-[20px] flex justify-center items-center font-bold text-[24px]">
+                            <div className="bg-color-2 w-[550px] h-[70px] cursor-pointer rounded-[20px] flex justify-center items-center font-bold text-[24px]">
                                 إنشاء حساب
                             </div>
                             <div className="mm check flex min-w-[200px] ml-auto">
